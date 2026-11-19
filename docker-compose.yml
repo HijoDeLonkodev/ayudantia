@@ -38,5 +38,5 @@ services:
       start_period: 20s
 
 volumes:
-  datos_db:
+  datos-db:
     name: evaluacion2_datos-db
