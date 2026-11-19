@@ -9,7 +9,7 @@ services:
       DB_HOST: db
       DB_USER: app
       DB_PASSWORD: app123
-      DB_NAME: ayudantiaS1
+      DB_NAME: empresa_cloud
     depends_on:
       db:
         condition: service_healthy
@@ -24,7 +24,7 @@ services:
     image: mariadb:11.4
     environment:
       MARIADB_ROOT_PASSWORD: root
-      MARIADB_DATABASE: ayudantiaS1
+      MARIADB_DATABASE: empresa_cloud
       MARIADB_USER: app
       MARIADB_PASSWORD: app123
     volumes:
