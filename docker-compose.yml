@@ -39,4 +39,4 @@ services:
 
 volumes:
   datos_db:
-    evaluacion2_datos-db
+    name: evaluacion2_datos-db
